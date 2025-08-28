@@ -85,6 +85,7 @@ color: #fff;
 }
 
 .hero-button {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
@@ -180,7 +181,7 @@ background: #2e2f42;
 .footer-link {
 font-weight: 700;
 font-size: 18px;
- line-height: 21px; 
+line-height: 21px; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
