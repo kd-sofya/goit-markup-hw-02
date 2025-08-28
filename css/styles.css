@@ -1,5 +1,7 @@
 body{
-    font-family: 'Raleway, Rodoto', sans-serif;
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 ul{
@@ -45,7 +47,8 @@ color: #2e2f42;
 }
 
 .header-link-item:hover,
-.header-link-item:focus{
+.header-link-item:focus,
+.header-link-item:active{
 color: #404bbf;
 }
 
@@ -61,8 +64,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.header-contacts-item:hover,
-.header-contacts-item:active{
+.header-contacts-item:hover{
 color: #404bbf;
 }
 
@@ -118,6 +120,19 @@ background: #404bbf;
 .features-title {}
 
 .features-item {}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+ overflow: hidden;
+}
 
 .features-subtitle {
 font-weight: 500;
