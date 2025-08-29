@@ -76,8 +76,6 @@ color: #404bbf;
 
 .hero {
 background: #2e2f42;
-width: 1440px;
-height: 600px;
 }
 
 .hero-title {
@@ -131,7 +129,6 @@ color: #2e2f42;
 .features-lead {
 font-size: 16px;
 line-height: 24px; 
-line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -141,7 +138,7 @@ color: #434455;
 
 
 .team {
-background-color: #F4F4FD
+background-color: #F4F4FD;
 }
 
 .team-title {
@@ -202,14 +199,13 @@ color: #4d5ae5;
 }
 
 .italic-footer{
-color: #f4f4fd 
+color: #f4f4fd;
 }
 
 
 .footer-lead {
 font-size: 16px;
 line-height: 24px; 
-line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
