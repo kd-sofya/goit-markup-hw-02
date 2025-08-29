@@ -65,6 +65,7 @@ color: #434455;
 }
 
 .header-contacts-item:hover,
+.header-contacts-item:focus,
 .header-contacts-item:active{
 color: #404bbf;
 }
@@ -117,7 +118,7 @@ background: #404bbf;
 
 .features-item {}
 
-/*.visually-hidden {
+.visually-hidden {
 position: absolute;
 width: 1px;
 height: 1px;
@@ -127,8 +128,8 @@ padding: 0;
 white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
- overflow: hidden;
-} */
+overflow: hidden;
+} 
 
 .features-subtitle {
 font-weight: 500;
